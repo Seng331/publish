@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  font-family: "Ubuntu", Arial, sans-serif;
+  margin: 0;
+}
+
+
+.fa{
+  font-size: 2.5em;
+  color: #8E1616;
+}
+
+.header{
+  font-family: 'Georgia', serif;
+  text-align: center;
+  background-color: #7D0A0A;
+  padding: 4px;
+  color: white;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 400px;
+}
+
+
+
+blockquote{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeee;
+  border-left: 10px solid gray;
+  padding: 20px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;    
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.icon-text p {
+  margin: 0;
+}
+
+
+
+}
+/* Website Links except the nav */
+a:link{
+  color: #493D9E;
+}
+a:visited{
+  color: #493D9E;
+}
+a:hover{
+  color: #D74B76;
+}
+a:active{
+  color: black;
+}
+header{
+  text-align: center;
+}
+
+.header-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:   2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1.0);
+}
+
+/* Navigation */
+nav{
+  background-color: black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+  color: #FFAB5B;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: #16404D;
+}
+nav a:active{
+  color: violet;
+}
+
+/*Main */
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Footer */
+footer{
+  border-top: purple 3px solid;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+footer small {
+  font-size: 1em;
+  display: block; 
+  background-color: #7D0A0A;         
+  margin-top: 3px;
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+
+/*CSS without a media query--applies to all size unless overridden*/
+h1 {
+  font-size: 4em;
+  margin: 0.5em 0;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 2em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
