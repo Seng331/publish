@@ -12,11 +12,12 @@
 
 
 <body>
-	<header>
+  <header>
     <img src="images/senglogo.png" alt="logo" height="300px" width="300px" class="img-fluid logo">
-  </header> 	
 
-	<nav>
+  </header>
+
+  <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
@@ -25,27 +26,42 @@
     </ul>
   </nav>
 
-  <main>
-
-    <h1>Portfolio</h>
-  
-    <h6>These web pages were designed using HTML and CSS, with additional styling and features from Bootstrap and Font Awesome.</h6>
-
-  <div class="image-row">
-    <div class="image-column">
-      <h2>Animal Web Page</h2>
-      <img src="images/animal.png" alt="Animal Page" class="center.image"> 
+  <main class="container">
+    <div class="text-center mb-5">
+      <h1 class="display-4">My Projects</h1>
+      <p class="lead">These web pages were designed using HTML and CSS, with additional styling and features from Bootstrap and Font Awesome.</p>
     </div>
-    <div class="image-column">
-      <h2>Puppies Web Page</h2>
-      <img src="images/puppies.png" alt="Puppies Page" class="center.image">
+
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <img src="images/animal.png" alt="Animal Page" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title">Animal Web Page</h2>
+            <p class="card-text">A responsive webpage showcasing various animals with descriptions and images.</p>
+            <ul class="list-unstyled">
+              <li><strong>Technologies:</strong> HTML5, CSS3, Bootstrap, Font Awesome</li>
+            </ul>
+            <a href="animals/index.html" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card h-100">
+          <img src="images/puppies.png" alt="Puppies Page" class="card-img-top">
+          <div class="card-body">
+            <h2 class="card-title">Puppies Web Page</h2>
+            <p class="card-text">An adorable collection of puppy photos with breed information.</p>
+            <ul class="list-unstyled">
+              <li><strong>Technologies:</strong> HTML5, CSS3, Bootstrap, Font Awesome</li>
+            </ul>
+            <a href="puppies/index.html" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</main>
-
-
-
-	
+  </main>
 
   <footer class="bg-light py-4">
     <div class="container">
@@ -53,9 +69,9 @@
         <!-- Left column -->
         <div class="col-md-6 mb-3">
           <div class="p-3 border rounded">
-            <h3>Sample Portfolio Website for Web Development Students</h3>
-            <p>This website is a sample portfolio website made for students at <b>Saint Paul College</b>. It features a mythical student named Sharp Toes.</p>
-          <p><i>The Sharp Toes Image is royalty free artwork by Belinan from Pixabay.</i></p> 
+            <h3>Building My Future, As a Web Developer</h3>
+            <p>I'm <b>Seng Htoi</b>, a CS student turning curiosity into functional websites and apps.</p>
+            <p><i>This portfolio reflects my journey—mistakes, breakthroughs, and everything in between.</i></p>
 
           </div>
         </div>
@@ -65,24 +81,23 @@
           <div class="p-3 border rounded">
             <h3>Let's Connect!</h3>
             <div class="d-flex justify-content-between">
-              <a href="#" class="text-dark text-center" aria-label="LinkedIn Profile">
+              <a href="https://www.linkedin.com/in/seng-htoi-518916359/" class="text-dark text-center" aria-label="LinkedIn Profile">
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 <p class="mb-0">LinkedIn</p>
               </a>
-              <a href="#" class="text-dark text-center" aria-label="GitHub Profile">
+              <a href="https://github.com/Seng331" class="text-dark text-center" aria-label="GitHub Profile">
                 <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                 <p class="mb-0">GitHub</p>
               </a>
-              <a href="mailto:example@example.com" class="text-dark text-center" aria-label="Send Email">
+              <a href="mailto:rj6950dj@go.minnstate.edu"
+              class="text-dark text-center" aria-label="Send Email">
                 <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                 <p class="mb-0">Email</p>
               </a>
             </div>
           </div>
         </div>
-      </div>
-
-      
+      </div> 
     </div>
   </footer>
 
