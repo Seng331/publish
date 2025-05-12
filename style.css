@@ -50,8 +50,7 @@ h1 {
 h5{
   font-family: "Ubuntu", Arial, sans-serif;
   font-weight: 100;
-  color:#27548A ;
-  
+  color:#27548A ; 
 }
 
 
@@ -73,44 +72,6 @@ h3{
   margin: 0;
 }
 
-.resume-header {
-    border-bottom: 2px solid #48A6A7;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-}
-
-.section-title {
-    color: #48A6A7;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.section-title i {
-    margin-right: 10px;
-    color: #FF8282;
-}
-
-.resume-section {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.experience-item, .education-item {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-left: 3px solid #48A6A7;
-    margin-bottom: 15px;
-    border-radius: 0 5px 5px 0;
-}
-
-.contact-info i {
-    margin-right: 5px;
-    color: #48A6A7;
-}
 
 
 /* Website Links except the nav */
